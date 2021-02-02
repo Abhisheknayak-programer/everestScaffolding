@@ -16,7 +16,470 @@
     <!-- Custom Css -->
     <link rel="stylesheet" href="./css/style.css">
 </head>
+    <style>
+    @import url('https://fonts.googleapis.com/css2?family=Metal+Mania&family=Montserrat:wght@400;500;600;900&family=Poppins:wght@500&family=Ubuntu:wght@400;500;700&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+    /* font-family: 'Metal Mania', cursive;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+    font-family: 'Montserrat', sans-serif; */
 
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+nav{
+    background: linear-gradient(to right, #ad5389, #3c1053);
+    height: 80px;
+    width: 100%;
+}
+
+label.Logo{
+    color: white;
+    font-size: 35px;
+    line-height: 80px;
+    padding: 0 100px;
+    font-weight: 600;
+}
+
+nav ul{
+    float: right;
+    margin-left:20px ;
+}
+
+nav ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+    list-style: none;
+}
+
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 17px;
+    padding: 7px 13px;
+    text-transform: uppercase;
+    font-weight: 500;
+    border-radius: 3px;
+}
+
+nav ul li a:active,nav ul li a:hover{
+    /* background: #1b9bff; */
+    background-image: linear-gradient( 111.1deg,  rgba(0,40,70,1) -4.8%, rgba(255,115,115,1) 82.7%, rgba(255,175,123,1) 97.2% );
+    transition: all 0.5s ease;
+    color: white;
+}
+
+.checkbtn{
+    font-size: 30px;
+    color: white;
+    float: right;
+    line-height: 80px;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+}
+
+#check{
+    display: none;
+}
+
+
+
+
+
+
+/* Contact  Section Css */
+.ContactArea .row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+
+/* <!-- Error Page Design --> */
+
+.Error-Section .row ,.ErrorBtn_Carrier{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.Error-Section .row .ErrorBtn{
+    padding: 7px 20px;
+    color: white;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-weight: 600;    
+    background-image: linear-gradient( 109.6deg,  rgba(0,0,0,1) 11.2%, rgba(11,132,145,1) 91.1% );
+}
+
+.Error-Section .row .ErrorBtn:hover{
+    background-image: linear-gradient( 109.6deg,  rgb(128, 128, 128) 11.2%, rgb(2, 57, 63) 91.1% );
+}
+
+
+.ErrorBtn_Carrier{
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Main Page Design */
+
+.secondLayer .row{
+    width: 100%;
+    /* border: 5px solid black; */
+}
+
+.secondLayer .row .FirstHeading{
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+    text-transform: uppercase;
+    font-size: 2.7rem;
+}
+
+.secondLayer .row .FirstHeading span:nth-child(1){
+    color: green;
+}
+
+.secondLayer .row .FirstHeading span:nth-child(2){
+    color: blue;
+}
+
+.secondLayer .row p{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    text-align: justify;
+    width: 90%;
+}
+
+.secondLayer .row .ContentArea,.secondLayer .row .Imgarea{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    /* border: 3px solid red; */
+}
+
+.secondLayer .row .ContentArea .BtnHolder{
+    display: flex;
+    width: 50%;
+    justify-content: space-between;
+}
+
+
+.secondLayer .row .ContentArea .BtnHolder a{
+    text-decoration: none;
+    padding: 10px 20px;
+    font-weight: 500;
+    border-radius: 5px;
+    color: white;
+    transition: all 0.5s ease;
+}
+.secondLayer .row .ContentArea .BtnHolder a:nth-child(1){
+    background-image: radial-gradient( circle farthest-corner at 50.4% 50.5%,  rgba(251,32,86,1) 0%, rgba(135,2,35,1) 90% ); 
+}
+.secondLayer .row .ContentArea .BtnHolder a:nth-child(1):hover{
+    background-image: linear-gradient( 45.4deg,  rgba(81,128,252,1) 25.9%, rgba(12,12,12,1) 93.1% );
+}
+.secondLayer .row .ContentArea .BtnHolder a:nth-child(2){
+    background-image: linear-gradient( 45.4deg,  rgba(81,128,252,1) 25.9%, rgba(12,12,12,1) 93.1% );   
+}
+.secondLayer .row .ContentArea .BtnHolder a:nth-child(2):hover{
+    background-image: radial-gradient( circle farthest-corner at 50.4% 50.5%,  rgba(251,32,86,1) 0%, rgba(135,2,35,1) 90% );
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.thirdLayer{
+    min-height: 50vh;
+    width: 100%;
+    background: #1de9b6;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* Map Area */
+
+.mapArea h1{
+    color: #0082e6;
+    font-weight: 600;
+    text-decoration: underline;
+    letter-spacing: 1px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Media Queries */
+
+@media only screen and (max-width:1300px){
+    label.Logo{
+        padding: 0 50px;
+    }
+        
+.secondLayer .row .ContentArea .BtnHolder{
+    width: 80%;
+}
+
+}
+
+
+@media only screen and (max-width:1200px){
+    label.Logo{
+        padding-left: 30px;
+    }
+    nav ul li a{
+    padding: 7px 3px;
+    }
+}
+
+@media only screen and (max-width:1100px){
+    label.Logo{
+        padding: 0px;
+        padding-left: 10px;
+    }
+    
+    nav ul li a{
+    padding: 7px 0px;
+    }
+    
+    nav ul{
+    margin-left:0px ;
+    }
+}
+
+
+
+
+@media only screen and (max-width:992px){
+    label.Logo{
+        font-size: 20px;
+        padding-left: 50px;
+        text-transform: uppercase;
+    }
+    .secondLayer .row .ContentArea .BtnHolder{
+        width: 100%;
+    }
+}
+
+
+
+
+
+
+@media only screen and (max-width:952px){
+    label.Logo{
+        padding-left: 50px;
+        text-transform: uppercase;
+    }
+    nav ul li a{
+        font-size: 16px;
+    }
+}
+
+@media only screen and (max-width:900px){
+    .checkbtn{
+        display: block;
+    }
+    ul{
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        /* background: #2c3e50; */
+        background-image: linear-gradient( 109.6deg,  rgba(0,0,0,1) 11.2%, rgba(11,132,145,1) 91.1% );
+        top: 80px;
+        left: -110%;
+        text-align: center;
+        transition: all .5s ease;
+    }
+    nav ul li{
+        display: block;
+        margin: 50px 0;
+        line-height: 30px;
+    }
+    nav ul li a{
+        font-size: 20px;
+    }
+    a:hover,a.active{
+        background: none;
+        color: #0082e6;
+    }
+
+    #check:checked ~ ul{
+        left: 0%;
+    }
+
+}
+
+
+@media only screen and (max-width:576px){
+label.Logo{
+    font-size: 20px;
+    padding: 0 50px;
+    font-family: 'Ubuntu', sans-serif;
+}
+nav ul li a{
+    font-size: 25px;
+    padding: 7px 13px;
+}
+.checkbtn{
+    font-size: 20px;
+    margin-right: 20px;
+}
+
+.secondLayer .row{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.secondLayer .row .ContentArea .BtnHolder{
+    flex-direction: column;
+}
+.secondLayer .row .ContentArea .BtnHolder a{
+    margin: 10px auto;
+    width: 70%;
+}
+
+.secondLayer .row .FirstHeading{
+    font-size: 2rem;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.secondLayer .row p{
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+}
+
+
+}
+
+
+
+
+
+
+@media only screen and (max-width:380px){
+    label.Logo{
+        font-size: 20px;
+        padding: 0 20px;
+    }
+    nav ul li a{
+        font-size: 20px;
+    }
+}
+
+
+
+@media only screen and (max-width:300px){
+    label.Logo{
+        font-size: 15px;
+        padding: 0;
+        padding-left: 20px;
+    }
+
+}
+
+@media only screen and (max-width:255px){
+    label.Logo{
+        font-size: 10px;
+    }
+
+}
+    </style>
 <body>
 
     <nav>
