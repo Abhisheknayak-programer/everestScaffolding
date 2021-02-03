@@ -14,13 +14,15 @@ body{
 }
 
 nav{
-    background: #0066ff;
+    /* background: #0066ff; */
+    background: #00ff00;
     height: 80px;
     width: 100%;
 }
 
 label.Logo{
     color: white;
+    color: black;
     font-size: 35px;
     line-height: 80px;
     padding: 0 100px;
@@ -41,11 +43,12 @@ nav ul li{
 
 nav ul li a{
     color: white;
+    color: black;
     text-decoration: none;
     font-size: 17px;
     padding: 7px 13px;
     text-transform: uppercase;
-    font-weight: 500;
+    font-weight: 600;
     border-radius: 3px;
 }
 
@@ -141,11 +144,11 @@ nav ul li a:active,nav ul li a:hover{
 }
 
 .secondLayer .row .FirstHeading span:nth-child(1){
-    color: green;
+    color: #4AA356;
 }
 
 .secondLayer .row .FirstHeading span:nth-child(2){
-    color: blue;
+    color: #4D66AE;
 }
 
 .secondLayer .row p{
@@ -261,7 +264,11 @@ nav ul li a:active,nav ul li a:hover{
     font-weight: 600;
 }
 
-.MainProductLayer .row .ProductCard .RedirectionContent a:hover{
+.MainProductLayer .row .ProductCard:hover i{
+    color: #001AFF;
+}
+
+.MainProductLayer .row .ProductCard:hover a{
     color: red;
 }
 
@@ -449,6 +456,7 @@ nav ul li a:active,nav ul li a:hover{
     }
     nav ul li a{
         font-size: 20px;
+        color: white;
     }
     a:hover,a.active{
         background: none;
