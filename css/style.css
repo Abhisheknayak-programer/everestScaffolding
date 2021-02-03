@@ -127,10 +127,6 @@ nav ul li a:active,nav ul li a:hover{
 
 
 /* Main Page Design */
-.secondLayer{
-    background-color: black;
-    color: white !important;
-}
 
 .secondLayer .row{
     width: 100%;
@@ -199,6 +195,9 @@ nav ul li a:active,nav ul li a:hover{
 
 
 /* Prdouct Layer Design */
+.MainProductLayer{
+    overflow: hidden;
+}
 
 .MainProductLayer .row{
     display: flex;
@@ -206,6 +205,18 @@ nav ul li a:active,nav ul li a:hover{
     align-items: center;
 }
 
+.MainProductLayer h1{
+    text-align: center;
+    color: #0038FF;
+    text-decoration: underline;
+    font-weight: 600;
+    transition: all 0.5s ease;
+    cursor: pointer;
+}
+
+.MainProductLayer h1:hover{
+    transform: scale(1.2);
+}
 
 .MainProductLayer .row .ProductCard{
     border: 1px solid black;
@@ -213,6 +224,13 @@ nav ul li a:active,nav ul li a:hover{
     border-radius: 10px;
     overflow: hidden;
     cursor: pointer;
+    transition: all 0.5s ease;
+}
+
+.MainProductLayer .row .ProductCard:hover{
+    box-shadow: 5px 6px 17px -1px rgba(0,0,0,0.74);
+    -webkit-box-shadow: 5px 6px 17px -1px rgba(0,0,0,0.74);
+    -moz-box-shadow: 5px 6px 17px -1px rgba(0,0,0,0.74);
 }
 
 
@@ -238,10 +256,14 @@ nav ul li a:active,nav ul li a:hover{
 
 .MainProductLayer .row .ProductCard .RedirectionContent a{
     text-decoration: none;
-    font-size: 30px;
-
+    font-size: 20px;
+    color: black;
+    font-weight: 600;
 }
 
+.MainProductLayer .row .ProductCard .RedirectionContent a:hover{
+    color: red;
+}
 
 
 
@@ -254,14 +276,22 @@ nav ul li a:active,nav ul li a:hover{
 
 
 /* Map Area */
+.mapArea{
+    overflow: hidden;
+}
 
 .mapArea h1{
     color: #0082e6;
     font-weight: 600;
     text-decoration: underline;
     letter-spacing: 1px;
+    transition: all 0.5s ease;
+    cursor: pointer;
 }
 
+.mapArea h1:hover{
+    transform: scale(1.2);
+}
 
 
 
@@ -477,7 +507,7 @@ nav ul li a{
 }
 
 .MainProductLayer .row .ProductCard{
-    margin: 10px;
+    margin: 10px auto;
 }
 }
 
