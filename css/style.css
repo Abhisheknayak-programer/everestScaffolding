@@ -1,4 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Metal+Mania&family=Montserrat:wght@400;500;600;900&family=Poppins:wght@500&family=Ubuntu:wght@400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Philosopher:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+
 *{
     margin: 0px;
     padding: 0px;
@@ -26,11 +30,13 @@ label.Logo{
     line-height: 80px;
     padding: 0 100px;
     font-weight: 600;
+    text-transform: uppercase;
+    font-family: 'Philosopher', sans-serif;
 }
 
 nav ul{
     float: right;
-    margin-left:20px ;
+    margin-left:20px;
 }
 
 nav ul li{
@@ -47,7 +53,8 @@ nav ul li a{
     font-size: 17px;
     padding: 7px 13px;
     text-transform: uppercase;
-    font-weight: 500;
+    font-weight: 1000;
+    font-family: 'Philosopher', sans-serif;
     border-radius: 3px;
 }
 
@@ -126,12 +133,11 @@ nav ul li a:active,nav ul li a:hover{
 
 
 
-
-
 /* Main Page Design */
 .secondLayer{
-    background-image: linear-gradient( 109.6deg,  rgba(14,11,56,1) 11.2%, rgba(239,37,37,1) 91.1% );
+    /* background-image: linear-gradient( 109.6deg,  rgba(14,11,56,1) 11.2%, rgba(239,37,37,1) 91.1% ); */
     color: white !important;
+    background: #32285a;
     /* clip-path: polygon(0 0, 100% 0, 100% 100%, 0 91%); */
     /* min-height: 500px; */
 }
@@ -144,10 +150,11 @@ nav ul li a:active,nav ul li a:hover{
 }
 
 .secondLayer .row .FirstHeading{
-    font-weight: 600;
+    font-weight: 400;
     font-family: 'Poppins', sans-serif;
-    text-transform: uppercase;
+    text-transform: capitalize;
     font-size: 2.7rem;
+    font-family: 'Playfair Display', serif;
 }
 
 .secondLayer .row .FirstHeading span:nth-child(1){
@@ -213,18 +220,40 @@ nav ul li a:active,nav ul li a:hover{
 }
 
 
+@media only screen and (min-width:1100px){
+    .Imgarea{
+        position: relative;
+        top: 30px;
+        left: 10px;
+    }
+}
+
+
+/* Company Content */
+
+.Company_content{
+    /* min-height: 100vh; */
+    background: #fcff11;
+    clip-path: polygon(0% 0%, 100% 0%, 100% 75%, 100% 71%, 100% 81%, 100% 86%, 0 100%);
+    margin: 10px 0px;
+    padding-bottom: 50px;
+}
+
+.Company_content h1{
+    text-align: center;
+    padding: 10px;
+    /* font-family: 'Ubuntu', sans-serif; */
+    font-family: 'Lobster', cursive;
+    text-transform: uppercase;
+}
 
 
 
-
-
-
-
-
-
-
-
-
+.Company_content p{
+    font-family: sans-serif;
+    font-weight: 500;
+    text-align: justify;
+}
 
 
 
@@ -244,12 +273,13 @@ nav ul li a:active,nav ul li a:hover{
 }
 
 .MainProductLayer h1{
+    font-family: 'Lobster', cursive;
     text-align: center;
     color: #0038FF;
-    text-decoration: underline;
     font-weight: 600;
     transition: all 0.5s ease;
     cursor: pointer;
+    text-transform: capitalize;
 }
 
 .MainProductLayer h1:hover{
@@ -293,10 +323,11 @@ nav ul li a:active,nav ul li a:hover{
 }
 
 .MainProductLayer .row .ProductCard .RedirectionContent a{
+    font-family: 'Lobster', cursive;
     text-decoration: none;
     font-size: 20px;
     color: black;
-    font-weight: 600;
+    font-weight: 100;
 }
 
 .MainProductLayer .row .ProductCard:hover i{
@@ -315,6 +346,7 @@ nav ul li a:active,nav ul li a:hover{
 /* Quotation Area */
 
 .quotationArea{
+    font-family: 'Lobster', cursive;
     background: #fcff11;
     padding: 50px;
     margin: 30px 0px;
@@ -354,9 +386,9 @@ nav ul li a:active,nav ul li a:hover{
 }
 
 .mapArea h1{
+    font-family: 'Lobster', cursive;
     color: #0082e6;
-    font-weight: 600;
-    text-decoration: underline;
+    /* font-family: 'Metal Mania', cursive; */
     letter-spacing: 1px;
     transition: all 0.5s ease;
     cursor: pointer;
@@ -377,6 +409,7 @@ footer{
     display: flex;
     align-items: center;
     justify-content: center;
+    font-family: 'Philosopher', sans-serif;
 }
 
 footer .FooterFirstCol h3{
@@ -425,9 +458,9 @@ footer .FooterFirstCol .OtherArea .lastitem{
 .ms-scafoldingarea h1{
     text-align: center;
     color: #0038FF;
-    text-decoration: underline;
     font-weight: 600;
     transition: all 0.5s ease;
+    text-transform: capitalize;
     cursor: pointer;
 }
 
