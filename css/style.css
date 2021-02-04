@@ -14,8 +14,7 @@ body{
 }
 
 nav{
-    /* background: #0066ff; */
-    background: #4AA356;
+    background: #fcff11;
     height: 80px;
     width: 100%;
 }
@@ -48,7 +47,7 @@ nav ul li a{
     font-size: 17px;
     padding: 7px 13px;
     text-transform: uppercase;
-    font-weight: 600;
+    font-weight: 500;
     border-radius: 3px;
 }
 
@@ -130,10 +129,18 @@ nav ul li a:active,nav ul li a:hover{
 
 
 /* Main Page Design */
+.secondLayer{
+    background-image: linear-gradient( 109.6deg,  rgba(14,11,56,1) 11.2%, rgba(239,37,37,1) 91.1% );
+    color: white !important;
+    /* clip-path: polygon(0 0, 100% 0, 100% 100%, 0 91%); */
+    /* min-height: 500px; */
+}
 
 .secondLayer .row{
     width: 100%;
     /* border: 5px solid black; */
+    padding-bottom: 30px;
+    margin: auto;
 }
 
 .secondLayer .row .FirstHeading{
@@ -151,22 +158,22 @@ nav ul li a:active,nav ul li a:hover{
     color: #4D66AE;
 }
 
-.secondLayer .row p{
+/* .secondLayer .row p{
     font-family: 'Montserrat', sans-serif;
     font-weight: 400;
     text-align: justify;
-    width: 90%;
-}
+} */
 
 .secondLayer .row .ContentArea,.secondLayer .row .Imgarea{
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    /* border: 3px solid red; */
 }
 
-.secondLayer .row .ContentArea .BtnHolder{
+
+
+/* .secondLayer .row .ContentArea .BtnHolder{
     display: flex;
     width: 50%;
     justify-content: space-between;
@@ -192,7 +199,35 @@ nav ul li a:active,nav ul li a:hover{
 }
 .secondLayer .row .ContentArea .BtnHolder a:nth-child(2):hover{
     background-image: radial-gradient( circle farthest-corner at 50.4% 50.5%,  rgba(251,32,86,1) 0%, rgba(135,2,35,1) 90% );
+} */
+
+
+.Imgarea .owl-carousel .items{
+    width: 100%;
+    height: 50vh;
 }
+
+.Imgarea{
+    overflow: hidden;
+    height: 400px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -277,6 +312,37 @@ nav ul li a:active,nav ul li a:hover{
 
 
 
+/* Quotation Area */
+
+.quotationArea{
+    background: #fcff11;
+    padding: 50px;
+    margin: 30px 0px;
+}
+
+.quotationArea .CenterBox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+
+.quotationArea .CenterBox p{
+    width: 50%;
+    text-align: center;
+    font-weight: 400;
+}
+
+
+.quotationArea .CenterBox h1 i{
+    color: red;
+}
+
+
+
+
 
 
 
@@ -303,6 +369,34 @@ nav ul li a:active,nav ul li a:hover{
 
 
 
+/* Footer Design */
+footer{
+    background-color: #32285a;
+    color: white;
+    min-height: 350px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer .FooterFirstCol h3{
+    font-size: 25px;
+}
+
+
+footer .FooterFirstCol .OtherArea .items{
+    font-size: 20px;
+}
+
+footer .FooterFirstCol .OtherArea .items i{
+   padding: 10px;
+   font-size: 25px;
+}
+
+
+footer .FooterFirstCol .OtherArea .lastitem{
+    font-size: 15px;
+}
 
 
 
@@ -315,13 +409,82 @@ nav ul li a:active,nav ul li a:hover{
 
 
 
+/* Ms Scaffolding Area */
+
+.ms-scafoldingarea{
+    overflow: hidden;
+    width: 100%;
+}
+
+.ms-scafoldingarea .row{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.ms-scafoldingarea h1{
+    text-align: center;
+    color: #0038FF;
+    text-decoration: underline;
+    font-weight: 600;
+    transition: all 0.5s ease;
+    cursor: pointer;
+}
+
+.ms-scafoldingarea h1:hover{
+    transform: scale(1.2);
+}
+
+.ms-scafoldingarea .row .ProductCard{
+    border: 1px solid black;
+    background: #eee;
+    border-radius: 10px;
+    overflow: hidden;
+    cursor: pointer;
+    transition: all 0.5s ease;
+}
+
+.ms-scafoldingarea .row .ProductCard:hover{
+    box-shadow: 5px 6px 17px -1px rgba(0,0,0,0.74);
+    -webkit-box-shadow: 5px 6px 17px -1px rgba(0,0,0,0.74);
+    -moz-box-shadow: 5px 6px 17px -1px rgba(0,0,0,0.74);
+}
 
 
+.MainPrms-scafoldingareaoductLayer .row .ProductCard .ImgHolder img{
+    padding-top: 10px ;
+    border-radius: 10px;
+}
 
 
+.ms-scafoldingarea .row .ProductCard .ImgHolder img:hover{
+    transform: scale(1.10);
+}
 
 
+.ms-scafoldingarea .row .ProductCard .RedirectionContent{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #eee;
+    width: 100%;
+    padding: 10px;
+}
 
+.ms-scafoldingarea .row .ProductCard .RedirectionContent a{
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+    font-weight: 600;
+}
+
+.ms-scafoldingarea .row .ProductCard:hover i{
+    color: #001AFF;
+}
+
+.ms-scafoldingarea .row .ProductCard:hover a{
+    color: red;
+}
 
 
 
@@ -416,6 +579,10 @@ nav ul li a:active,nav ul li a:hover{
     .secondLayer .row .ContentArea .BtnHolder{
         width: 100%;
     }
+
+    footer .row .col{
+        padding: 20px;
+    }
 }
 
 
@@ -437,17 +604,20 @@ nav ul li a:active,nav ul li a:hover{
     .checkbtn{
         display: block;
     }
+
     ul{
         position: fixed;
         width: 100%;
         height: 100vh;
+        background: #fcff11;
         /* background-image: linear-gradient( 109.6deg,  rgba(0,0,0,1) 11.2%, rgba(11,132,145,1) 91.1% ); */
-        background: linear-gradient(121deg, #FF0000 0%, #ff0000 100%), linear-gradient(140deg, #ff5454 27%, #223DCB 100%), linear-gradient(140deg, #4E9C51 0%, #001AFF 72%), linear-gradient(64deg, #6e00ff 0%, #0038FF 100%), radial-gradient(52% 101.79% at 50% 50%, #707300 0%, #ff0000 100%), radial-gradient(100% 100% at 70% 0%, #7A3B00 0%, #1DAC92 100%);
-        background-blend-mode: overlay, overlay, difference, difference, color-burn, exclusion;        
+        /* background: linear-gradient(121deg, #FF0000 0%, #ff0000 100%), linear-gradient(140deg, #ff5454 27%, #223DCB 100%), linear-gradient(140deg, #4E9C51 0%, #001AFF 72%), linear-gradient(64deg, #6e00ff 0%, #0038FF 100%), radial-gradient(52% 101.79% at 50% 50%, #707300 0%, #ff0000 100%), radial-gradient(100% 100% at 70% 0%, #7A3B00 0%, #1DAC92 100%); */
+        /* background-blend-mode: overlay, overlay, difference, difference, color-burn, exclusion;         */
         top: 80px;
         left: -110%;
         text-align: center;
         transition: all .5s ease;
+        z-index: 111;
     }
     nav ul li{
         display: block;
@@ -456,11 +626,10 @@ nav ul li a:active,nav ul li a:hover{
     }
     nav ul li a{
         font-size: 20px;
-        color: white;
     }
     a:hover,a.active{
         background: none;
-        color: #0082e6;
+        color: red;
     }
 
     #check:checked ~ ul{
@@ -468,6 +637,15 @@ nav ul li a:active,nav ul li a:hover{
     }
 
 }
+
+
+@media only screen and (max-width:800px){
+  .quotationArea .CenterBox p{
+    width: 80%;
+  }
+}
+
+
 
 
 @media only screen and (max-width:576px){
@@ -509,14 +687,25 @@ nav ul li a{
     padding: 0px;
     margin: 0px;
 }
-.MainProductLayer .row{
+.MainProductLayer .row,.ms-scafoldingarea  .row{
     flex-direction: column;
     margin: 0px 10px;
 }
 
-.MainProductLayer .row .ProductCard{
+.MainProductLayer .row .ProductCard,.ms-scafoldingarea .row .ProductCard{
     margin: 10px auto;
 }
+
+footer .row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.quotationArea .CenterBox p{
+    width: 100%;
+  }
+
 }
 
 
@@ -532,9 +721,24 @@ nav ul li a{
     nav ul li a{
         font-size: 20px;
     }
+    .quotationArea .CenterBox p{
+        text-align: justify;
+    }
+    .quotationArea .CenterBox h2{
+        font-size: 20px;
+        font-weight: 600;
+    }
 }
 
-
+@media only screen and (max-width:340px){
+    .quotationArea .CenterBox h2{
+        font-size: 15px;
+        font-weight: 600;
+    }
+    .quotationArea .CenterBox p{
+        font-size: 70%;
+    }
+}
 
 @media only screen and (max-width:300px){
     label.Logo{
@@ -543,6 +747,9 @@ nav ul li a{
         padding-left: 20px;
     }
 
+    footer{
+        overflow: hidden;
+    }
 }
 
 @media only screen and (max-width:255px){
