@@ -8,12 +8,12 @@ $(document).ready(function () {
         autoplayTimeout: 2000, // At What Time You Need The Carousel To scroll Automatically
        
         // This Is For The Animation Only Occurs For Single Data
-        animateOut: 'slideOutDown',
-        animateIn: 'pulse',
+        // animateOut: 'slideOutDown',
+        animateOut: 'fadeOut',
+        // animateIn: 'pulse',
         rtl : true, // It Will Make The Carousel Slide from Right To left In reverse Order
         dots:false,
-
-
+        
                 
         responsive: {
             0: {
