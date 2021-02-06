@@ -223,15 +223,16 @@ nav ul li a:active,nav ul li a:hover{
 .Company_content h1{
     text-align: center;
     padding: 10px;
-    /* font-family: 'Ubuntu', sans-serif; */
-    font-family: 'Lobster', cursive;
+    font-family: 'Roboto Condensed', sans-serif;
     text-transform: uppercase;
+    font-weight: 600;
 }
 
 
 
 .Company_content p{
     font-family: sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
     font-weight: 500;
     text-align: justify;
 }
@@ -254,7 +255,7 @@ nav ul li a:active,nav ul li a:hover{
 }
 
 .MainProductLayer h1{
-    font-family: 'Lobster', cursive;
+    font-family: 'Roboto Condensed', sans-serif;
     text-align: center;
     color: #0038FF;
     font-weight: 600;
@@ -314,6 +315,7 @@ nav ul li a:active,nav ul li a:hover{
 
 .MainProductLayer .row .ProductCard:hover i{
     color: #001AFF;
+    display: none;
 }
 
 .MainProductLayer .row .ProductCard:hover a{
@@ -328,7 +330,8 @@ nav ul li a:active,nav ul li a:hover{
 /* Quotation Area */
 
 .quotationArea{
-    font-family: 'Lobster', cursive;
+    /* font-family: 'Lobster', cursive; */
+    font-family: 'Roboto Condensed', sans-serif;
     background: #fcff11;
     padding: 50px;
 }
@@ -367,9 +370,8 @@ nav ul li a:active,nav ul li a:hover{
 }
 
 .mapArea h1{
-    font-family: 'Lobster', cursive;
+    font-family: 'Roboto Condensed', sans-serif;
     color: #0082e6;
-    /* font-family: 'Metal Mania', cursive; */
     letter-spacing: 1px;
     transition: all 0.5s ease;
     cursor: pointer;
@@ -438,6 +440,7 @@ footer .FooterFirstCol .OtherArea .lastitem{
 
 .ms-scafoldingarea h1{
     /* font-family: 'Lobster', cursive; */
+    font-family: 'Roboto Condensed', sans-serif;
     text-align: center;
     color: #0038FF;
     font-weight: 600;
