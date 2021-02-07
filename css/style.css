@@ -106,6 +106,48 @@ nav .NumberAtLast{
 
 
 
+.logoImg{
+    display: inline-block;
+    overflow: hidden;
+}
+
+.logoImg img{
+    width: 200px;
+    height: 180px;
+    position: relative;
+    top: -50px;
+}
+
+
+@media only screen and (min-width:920px){
+    label{
+        display: none;
+    }
+}
+
+@media only screen and (max-width:920px){
+    .logoImg img{
+        display: none;
+    }
+    label{
+        display: block;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* Contact  Section Css */
 .ContactArea .row{
     display: flex;
@@ -826,7 +868,7 @@ footer .FooterFirstCol .OtherArea .lastitem{
     }
 }
 
-@media only screen and (max-width:900px){
+@media only screen and (max-width:920px){
     nav .logoImg{
         display: none;
     }
