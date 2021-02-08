@@ -21,9 +21,6 @@
 </head>
 <style>
     body{
-        /* background: radial-gradient(100% 225% at 100% 0%, #FF0000 0%, #000000 100%), linear-gradient(236deg, #00C2FF 0%, #000000 100%), linear-gradient(135deg, #CDFFEB 0%, #CDFFEB 36%, #009F9D 36%, #009F9D 60%, #07456F 60%, #07456F 67%, #0F0A3C 67%, #0F0A3C 100%); */
-        /* background-blend-mode: overlay, hard-light, normal; */
-        /* color: white; */
         background-repeat: none;
         width: 100%;
         min-height: 100vh;
@@ -32,6 +29,7 @@
         color: white;
         font-weight: 600;
     }
+
 </style>
 <body>
 
@@ -41,6 +39,11 @@
             <i class="fa fa-bars"></i>
         </label>
         <label class="Logo">Everest Scaffolding</label>
+
+        <div class="logoImg">
+            <img src="./images/company.svg" class="img-fluid" alt="">
+        </div>
+
         <ul>
             <li>
                 <a href="./index.html" class="active">Home</a>
@@ -57,8 +60,13 @@
             <li>
                 <a href="./contact.html">Contact</a>
             </li>
+            <li class="NumberAtLast">
+                <h4><i class="fa fa-whatsapp" aria-hidden="true"></i>  <i class="fa fa-phone" aria-hidden="true"></i>  9833373406</h4>
+            </li>
         </ul>
     </nav>
+
+
 
 <!-- <section class="FirstDesign">
     <ul class="nav justify-content-center">
@@ -82,46 +90,46 @@
 
   <!-- Contact Page Design -->
   <section class="ContactArea">
-      <div class="container">
-          <div class="row">
-              <div class="col col-sm-12 col-lg-6 col-md-8">
-                <form action="/contact" method="POST">
-                    
-                     <div class="mb-3">
-                      <label for="exampleInputEmail1" class="form-label">Your Company Name</label>
-                      <input type="text" class="form-control" autocomplete="true" name="name" required>
-                    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col col-sm-12 col-lg-6 col-md-8">
+              <form action="/contact" method="POST">
+                  
+                   <div class="mb-3">
+                    <label for="exampleInputEmail1" class="form-label">Your Company Name</label>
+                    <input type="text" class="form-control" autocomplete="true" name="name" required>
+                  </div>
 
-                    <div class="mb-3">
-                      <label for="exampleInputEmail1" class="form-label">Email address</label>
-                      <input type="email" class="form-control" autocomplete="true" name="email" required>
-                      <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
-                    </div>
+                  <div class="mb-3">
+                    <label for="exampleInputEmail1" class="form-label">Email address</label>
+                    <input type="email" class="form-control" autocomplete="true" name="email" required>
+                    <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                  </div>
 
-                    <div class="mb-3">
-                        <label for="exampleInputPassword1" class="form-label">Mobile Number</label>
-                        <input type="number" class="form-control" autocomplete="true" name="number" required>
-                    </div>
+                  <div class="mb-3">
+                      <label for="exampleInputPassword1" class="form-label">Mobile Number</label>
+                      <input type="number" class="form-control" autocomplete="true" name="number" required>
+                  </div>
 
-                    <div class="mb-3">
-                      <label for="exampleInputPassword1" class="form-label">Product Name</label>
-                      <input type="text" class="form-control" name="product" required>
-                    </div>
+                  <div class="mb-3">
+                    <label for="exampleInputPassword1" class="form-label">Product Name</label>
+                    <input type="text" class="form-control" name="product" required>
+                  </div>
 
 
-                    <div class="mb-3">
-                        <label for="exampleInputPassword1" class="form-label">Quantity</label>
-                        <input type="number" class="form-control" autocomplete="true" name="quantity" required>
-                    </div>                    
+                  <div class="mb-3">
+                      <label for="exampleInputPassword1" class="form-label">Quantity</label>
+                      <input type="number" class="form-control" autocomplete="true" name="quantity" required>
+                  </div>                    
 
-                    <button type="submit" class="btn btn-primary">Submit</button>
-                  </form>
-            </div>
-        </div>
-    </div> 
-    <br> 
-  </section>
- 
+                  <button type="submit" class="btn btn-primary">Submit</button>
+                </form>
+          </div>
+      </div>
+  </div> 
+  <br> 
+</section>
+
 
 
   <footer>
