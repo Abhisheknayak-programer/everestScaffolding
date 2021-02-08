@@ -371,9 +371,12 @@ nav .NumberAtLast{
     font-family: 'Roboto Condensed', sans-serif;
 }
 
+.MainProductLayer .row .ProductCard i {
+    display: none;
+}
+
 .MainProductLayer .row .ProductCard:hover i{
     color: #001AFF;
-    display: none;
 }
 
 .MainProductLayer .row .ProductCard:hover a{
