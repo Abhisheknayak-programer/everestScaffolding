@@ -89,12 +89,14 @@ nav ul li a:active,nav ul li a:hover{
 nav .NumberAtLast{
     font-family: 'Roboto Condensed', sans-serif;
     padding: 0px 5px;
-    color: red;    
+    /* color: red;     */
     cursor: pointer;
 }
 
 .fa-whatsapp{
-    color: green;
+    color: white;
+    background: rgb(4, 173, 4);
+    border-radius: 50%;
 }
 
 .fa-phone{
