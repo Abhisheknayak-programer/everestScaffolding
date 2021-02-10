@@ -628,6 +628,22 @@ footer .FooterFirstCol .OtherArea .lastitem{
 
 
 
+.btn-whatsaap img{
+    height: 35px;
+    width: 35px;
+}
+
+.btn-whatsaap{
+    outline: none !important;
+    border: none !important;
+    position: sticky;
+    top: 550px;
+    left: 100%;
+}
+
+.btn-whatsaap:hover{
+    background: #eee;
+}
 
 
 

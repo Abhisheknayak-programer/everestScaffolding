@@ -152,6 +152,8 @@
 
 
 
+    <a class="btn btn-whatsaap" href="whatsapp://send?text=https://everestscaffolding.in" data-action="share/whatsaap/share" type="button"><img src="./images/wp.png" class="img-fluid" alt="No_IMG"></a>
+
 
     <section class="MainProductLayer">
         <h1>Our Products</h1>
@@ -433,6 +435,24 @@
 
 
 
+
+    <!-- Scroll Event -->
+
+    <script>
+        const btn = document.querySelector('.btn-whatsaap');
+        window.addEventListener('scroll',()=>{
+            const scrolled = window.scrollY;
+            const scrollable = document.documentElement.scrollHeight - window.innerHeight;
+            const scrolledNow =  Math.ceil(scrolled);
+
+            // console.log(scrolledNow);
+
+            if(scrolledNow > 350){
+                btn.style.top = scrolledNow - 100;
+            }
+
+        });
+    </script>
 
 
 
