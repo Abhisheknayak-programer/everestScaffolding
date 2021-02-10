@@ -93,6 +93,11 @@ nav .NumberAtLast{
     cursor: pointer;
 }
 
+nav .NumberAtLast img{
+    height: 35px;
+    width: 35px;
+}
+
 .fa-whatsapp{
     color: white;
     background: rgb(4, 173, 4);
@@ -103,7 +108,11 @@ nav .NumberAtLast{
     color: #4D66AE;
 }
 
-
+@media only screen and (max-width:1052px){
+    nav .NumberAtLast{
+        display: none;
+    }
+}
 
 
 
@@ -875,7 +884,13 @@ footer .FooterFirstCol .OtherArea .lastitem{
 
 @media only screen and (max-width:920px){
     nav .logoImg{
-        display: none;
+        /* display: none; */
+        background: url("../images/company2.svg.png") center center/cover;
+        height: 200px;
+        width: 200px;
+        position: absolute;
+        top: -55px;
+        left: 0px;
     }
     
     .checkbtn{
@@ -912,6 +927,9 @@ footer .FooterFirstCol .OtherArea .lastitem{
 
     .fa-bars{
         color: black;
+    }
+    nav .NumberAtLast{
+        display: block;
     }
 }
 
